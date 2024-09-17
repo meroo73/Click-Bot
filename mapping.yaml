@@ -1,0 +1,366 @@
+nachname 
+vorname 
+gerburtsdatum 
+email.
+
+
+geschlecht
+    Männlich
+        Persönliche Daten
+            strasse+nummer
+            postleizahl
+            wohnort
+            telefon
+        Persönliche Daten
+            gewicht
+            grosse
+            blutgruppe
+
+        versicherdaten
+            wie   
+            wer
+
+        vorestellungsgrund
+            Auffälligkeiten/Ereignisse in der Familie
+            Auffälligkeiten/Ereignisse in meiner eigenen Vorgeschichte
+            Sonstiges:
+
+        Thrombose/Lungenembolie
+        Blutungsneigung
+        Wundheilung
+        Gynäkologische Anamnese
+        Familienanamnese
+        Operationen
+        Medikamente
+        Allergien
+        Allgemeiner Gesundheitszustand
+        Akute Infekte
+        Infektneigung
+        Infektionskrankheiten
+        Chronische Krankheiten
+        Tumor-/Krebserkrankung
+        Gewichtsverlust & Migräne
+        Rauchverhalten
+        Alkoholkonsum
+
+    weiblich
+        Persönliche Daten
+            strasse+nummer
+            postleizahl
+            wohnort
+            telefon
+        Persönliche Daten
+            gewicht
+            grosse
+            blutgruppe
+        versicherdaten
+            wie   
+            wer
+
+        vorestellungsgrund
+            Auffälligkeiten/Ereignisse in der Familie
+            Kinderwunsch/Schwangerschaftskomplikationen
+            Wunsch nach Verhütungsmittel
+            Auffälligkeiten/Ereignisse in meiner eigenen Vorgeschichte
+            Sonstiges:
+        Thrombose/Lungenembolie
+        Blutungsneigung
+        Wundheilung
+        Gynäkologische Anamnese
+        Familienanamnese
+        Operationen
+        Medikamente
+        Allergien
+        Allgemeiner Gesundheitszustand
+        Akute Infekte
+        Infektneigung
+        Infektionskrankheiten
+        Chronische Krankheiten
+        Tumor-/Krebserkrankung
+        Gewichtsverlust & Migräne
+        Rauchverhalten
+        Alkoholkonsum
+
+    divers
+        Persönliche Daten
+            strasse+nummer
+            postleizahl
+            wohnort
+            telefon
+        Persönliche Daten
+            gewicht
+            grosse
+            blutgruppe
+        versicherdaten
+            wie   
+            wer
+
+        vorestellungsgrund
+        Thrombose/Lungenembolie
+        Blutungsneigung
+        Wundheilung
+        Gynäkologische Anamnese
+        Familienanamnese
+        Operationen
+        Medikamente
+        Allergien
+        Allgemeiner Gesundheitszustand
+        Akute Infekte
+        Infektneigung
+        Infektionskrankheiten
+        Chronische Krankheiten
+        Tumor-/Krebserkrankung
+        Gewichtsverlust & Migräne
+        Rauchverhalten
+        Alkoholkonsum
+
+
+
+
+
+
+
+
+
+
+
+
+blutgruppe
+tab right : b 
+tab right right : ab 
+tab righ righ right: O 
+tab right right right: unklar 
+tab right right right right : A 
+
+index % 5 
+1= b 
+2= ab
+3= O
+4= unklar
+5= A
+
+
+
+Koordinaten
+
+versicherdaten
+    
+    privat     right
+    gesetzlich right right 
+
+    then 5 options to be clicked 
+    ich :             py.moveTo(x=400, y=700)  mein überwisender py.moveTo(x=1000, y=700)
+    
+    mein hausartzt    py.moveTo(x=400, y=760)   sonstige:        py.moveTo(x=1000, y=760)
+    
+    niemand           py.moveTo(x=400, y=840)
+    
+
+    every third index will be privat so if the index is every third then it will go 
+        py.press('right')
+        py.press('tab')
+        py.press('right')
+        py.press('tab')
+        py.moveTo(x=400, y=700)
+        py.click()
+        for _ in range(5):
+            py.press('tab')
+        py.press('right')
+        py.press('right')
+
+ if its first indx aka first so 1 2 3rd goes privat then its 1 2 3 1 2 3 cycle 
+ so number 1 is gesetzlich 
+ and it
+ 
+        py.press('right')
+        py.press('right')
+        py.press('tab')
+        py.press('right')
+        py.press('tab')
+        py.moveTo(x=400, y=700)
+        py.click()
+        # for _ in range(5):
+        #     py.press('tab')
+        # py.press('right')
+        # py.press('right')
+
+
+ gesetzlich ich 
+        py.press('right')
+        py.press('right')
+        py.moveTo(x=400, y=750)
+        py.click()
+        for _ in range(5):
+            py.press('tab')
+
+
+
+
+
+mannlich
+vorestellungsgrund
+warum categorie
+Options
+AuffälligkeitenFamilie        (x=455, y=567)
+Auffälligkeiten Vorgeschichte (x=497, y=621)
+sonstiges                     (x=432, y=677)
+
+
+Auffälligkeiten Familie (x=504, y=571)
+sub options 
+scroll -400 
+-
+Thromboseneigung in der Familie---------- (x=525, y=542)
+Herzinfarkte/Schlaganfälle in der Familie-(x=487, y=601)
+Gefäßverschlüsse in der Familie-----------(x=488, y=658)
+Faktor-V-Leiden in der Familie------------(x=481, y=717)
+Blutungsneigung in der Familie------------(x=482, y=774)
+Sonstiges in der Familie:-----------------(x=482, y=829)
+
+
+Auffälligkeiten Vor                        (x=497, y=621)
+sub options
+then
+scroll-850
+Thrombosen------------------------- (x=457, y=167)
+Schlaganfall/Hirninsult/Herzinf---- (x=457, y=223)   
+Dauer der Blutverdünnung------------(x=457, y=286)  
+unklare aPTT-Verlängerung-----------(x=457, y=341)
+unklare Quickverminderung-----------(x=457, y=399)  
+Blutungsneigung---------------------(x=457, y=452)  
+von-Willebrand-Syndrom--------------(x=457, y=508)  
+Plättchenfunktionsstörung-----------(x=457, y=567)  
+zu wenige Blutplättchen-------------(x=457, y=629)  
+zu viel Blutplättchen---------------(x=457, y=685)  
+zu viele rote Blutkörperchen--------(x=457, y=742)  
+zu viele weiße Blutkörperchen-------(x=457, y=802)  
+Infektneigung/Immundefekt-----------(x=457, y=860)  
+Sonstiges:--------------------------(x=457, y=918)  
+
+
+
+
+
+vorestellungsgrund
+warum
+Auffälligkeiten/Ereignisse in der Familie (x=504, y=571)
+Kidner wunch -----------------------------(x=478, y=623)
+wunsh ------------------------------------(x=478, y=683)
+auffaligketin vorestellungsgrund -------- (x=459, y=736)     
+sonstiges---------------------------------(x=410, y=803)
+
+
+nur option 1
+Auffälligkeiten/Ereignisse in der Familie (x=504, y=571)
+scroll -400 
+-
+Thromboseneigung in der Familie---------- (x=440, y=666)
+Herzinfarkte/Schlaganfälle in der Familie-(x=510, y=713)
+Gefäßverschlüsse in der Familie-----------(x=518, y=779)
+Faktor-V-Leiden in der Familie------------(x=458, y=832)
+Blutungsneigung in der Familie------------(x=477, y=882)
+Sonstiges in der Familie:-----------------(x=482, y=949)
+
+option 2 
+Kidner wunch -----------------------------(x=478, y=623)
+scroll -300 
+for _ in range(4):
+    py.press('tab')
+Kinderwunsch behandlung 
+'tab' nein 
+'tab''right' yes
+
+option 3 
+'Auffälligkeiten Vor', (459, 736)),
+
+
+
+
+
+
+divers 
+
+
+            ('Oberflächlich', (459, 124)),
+            ('Tiefe Beinvenenthrombose', (459, 186)),
+            ('Lungenarterienembolie', (459, 274)),
+            ('Muskelvenethrombose', (459, 326)),
+            ('Schlüsselbeinvenenthrombose', (459, 380)),
+            ('Halsgefäß-/Jugularisthrombose', (459, 443)),
+            ('Arnevenen', (459, 475)),
+            ('ZVK-/Katheterthrombose', (459, 533)),
+            ('Sinusvenenthrombose/Hirnvene', (459, 593)),
+            ('Mesenterialvenenthrombose', (459, 675)),
+            ('Pfortader', (459, 710)),
+            ('Lebervenenverschluss', (459, 767)),
+            ('Milzin', (459, 821)),
+            ('Arterieler', (459, 884)),
+            ('Augen', (459, 939)),
+            ('Weiß ich nicht', (459, 999))
+
+dann sub options for 
+Oberflächlich Thrombophlebitis/Venenentzündung
+Tiefe Beinvenenthrombose
+Lungenarterienembolie
+Muskelvenenthrombose
+Schlüsselbeinvenenthrombose
+Halsgefäß-/Jugularisthrombose
+Armvenenthrombose
+ZVK-/Katheterthrombose
+Sinusvenenthrombose/Hirnvene
+Ereignis am Auge
+
+and multiple style question and only 
+Pfortader
+Lebervenenverschluss
+Milzin
+Arterieler
+Mesenterialvenenthrombose can be selected as another option becoy they dont have sub option 
+
+
+when Muskelvenenthrombose is selected 
+time.sleep(2)
+
+
+
+
+Heparinspritzen/Clexane/Innohep usw.    (x=424, y=364)
+Marcumar/Phenprogramm/Coumadin/Slnthrom (x=422, y=423)
+Xarelto (x=417, y=479)
+Eliquis (x=415, y=537)
+Lixiana (x=412, y=594)
+Pradaxa (x=410, y=651)
+Ich habe weder Tabletten (x=424, y=768)
+wieß ich nicht (x=424, y=768)
+
+
+
+
+option 1 single selection 
+kein Auslöser bekannt.  (x=712, y=292)
+Krankheitsaktivität     (x=690, y=734)
+Chronische Polyarthitis (x=687, y=762)
+Nephrotisches Syndrom   (x=686, y=791)
+Sichelzellanämie        (x=684, y=819)
+Intravenöser            (x=684, y=848)
+Herzinfarkt             (x=685, y=935)
+
+option 2 only single seelction and after being selected 
+py.press('tab')
+py.write("hi test")
+Krankenhausaufenthalt vor dem Ereignis  (x=681, y=323)
+Gelenkinjektionen/Cortisonspritzen  (x=680, y=410)
+Chemotherapie      (x=688, y=499)
+Antibabypille mit Östrogen  (x=689, y=558)
+Medikamente wie Gerinnungsfaktoren  (x=689, y=616)
+
+option 3 single selection 
+but there will be sub options
+Operationen (x=678, y=379)
+Unfall/Verletzung   (x=679, y=411)
+Schwangerschaft (x=686, y=676)
+Wochenbett  (x=688, y=702)
+Immobilisation (x=682, y=879)
+Infektion       (x=688, y=905)  
+Reise           (x=681, y=965)
+Ungewohnte         (x=678, y=994)
