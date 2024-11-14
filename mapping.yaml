@@ -364,3 +364,122 @@ Immobilisation (x=682, y=879)
 Infektion       (x=688, y=905)  
 Reise           (x=681, y=965)
 Ungewohnte         (x=678, y=994)
+
+
+infektion 
+Lungenentzündung    (x=455, y=247)
+Nasennebenhöhlene   (x=436, y=309)
+Harnwegsinfekt      (x=438, y=366)
+Sonstiges           (x=442, y=423)
+
+wurde               (x=441, y=572)
+wie viel tagen      (0-7)
+
+Operationen
+Knochenbrüche  (x=442, y=581)
+Hüft-/Knieg    (x=439, y=641)
+Bauchoperation (x=449, y=699)
+sonstiges      (x=431, y=757)
+
+wochenbett
+vermhrte        (x=495, y=695)
+Bluttransfusion (x=475, y=761)
+erneute         (x=475, y=761)
+infektion       (x=463, y=880)
+
+
+
+Schwangerschaft
+
+
+in welcher Schwangerschaftswoche?   (x=464, y=172)
+bzw. wie viele Wochen nach  (x=457, y=283)
+
+Präeklampsie    (x=438, y=398)
+Schwangerschaftsvergiftung  (x=443, y=454)
+Gestose     (x=444, y=511)
+HELLP-Syndrom   (x=444, y=571)
+Geburtsgewicht <2500g
+Hyperstimulationssyndrom   (x=456, y=629)
+Blutung                     (x=461, y=749)
+Gewichtszunahme             (x=446, y=806)
+Unstillbares S              (x=448, y=859)
+Mehrlingsschwangerschaft    (x=467, y=921)
+
+
+
+
+Venenerkrankung? optionen 
+
+besenreiser (x=431, y=684)
+krampfadern (x=430, y=741)
+Venenentzündung/Phlebitis   (x=424, y=799)
+Posttrombotisches Syndrom   (x=434, y=856)
+Sonstige        (x=420, y=914)
+
+
+Blutarmut/Anämie/Thalassämie* options
+scroll 300
+Blutarmut/Anämie ohne Ursache   (x=444, y=550)
+Blutarmut durch Eisenmangel     (x=434, y=609)
+Thalassämie                     (x=434, y=668)
+Sichelzellanämie/SCD            (x=430, y=730)
+Sonstiges                       (x=414, y=785)
+
+
+
+schwangerschaftskomplikationen
+scroll -800
+Schwangerschaftsdiabetes    (x=424, y=336)
+Infektionen                 (x=417, y=393)
+Vorzeitige Entbindung       (x=429, y=454)
+Totgeburt/IUFT              (x=423, y=511)
+Intrauterine                (x=425, y=573)
+Blutungen  nur              (x=428, y=628)
+Blutungen  auch             (x=429, y=685)             
+Muttermundschwäche          (x=432, y=743)
+Bluthochdruck               (x=426, y=803)
+anders                      (x=408, y=860)
+
+
+bei wem
+-200
+vater (x=409, y=441)
+schwester (x=412, y=496)
+mutter  (x=790, y=443)
+oma         (x=790, y=557)
+couisn  (x=796, y=616)
+tochter (x=1190, y=499)
+
+scroll-700
+thromboseereignisoptionen
+Beinvenenthrombose (x=425, y=164)
+Lungenembolie(x=429, y=219)
+Sonstiges (x=429, y=278)
+moveto (x=695, y=454)
+
+Blutungsneigung optionen
+von-Willebrand-Syndrom (x=800, y=644)
+Fibrinogenmangel (x=1205, y=645)
+Faktor-VII-Mangel (x=457, y=702)
+Hämophilie A (x=810, y=703)
+Hämophilie B (x=1203, y=703)
+Faktor-X-Mangel (x=426, y=758)
+Faktor-XI-Mangel (x=821, y=761)
+Faktor-XII-Mangel (x=1217, y=760)
+Plättchen         (x=461, y=818)
+
+
+
+Allergien Optionen
+
+Heuschnupfen    (x=433, y=539)
+Allergie durch Stoffe am Arbeitsplatz (x=433, y=594)
+Tierhaarallergie    (x=424, y=653)
+Kontaktallergie (x=1021, y=593)
+Hausstauballergie(x=427, y=706)
+Urtikaria/Nesselsucht/Quincke (x=1021, y=535)
+Insektenstichallergie (x=1021, y=652)
+Sonnenallergie (x=1021, y=711)
+
+
